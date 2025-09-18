@@ -80,7 +80,7 @@ For each model run we log the following to MLflow:
 ## 5. MLflow logging screenshots 
 ![MLflow Experiment](results/Experiment.png)
 ![MLflow Runs](results/Runs.png)
-![MLflow Metrices](results/Runs.png)
+![MLflow Metrices](results/Metrices.png)
 
 ## Confusion Matrices
 - Logistic Regression  
