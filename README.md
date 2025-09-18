@@ -168,52 +168,10 @@ This script will:
 * In MLflow UI: `Experiments` → `MLOPS_IRIS` to view runs.
 * In UI: `Models` → `IrisBestModel` to view registered versions and source run links.
 
-### 7) Load a registered model for inference
 
-```python
-import mlflow.sklearn
-model = mlflow.sklearn.load_model("models:/IrisBestModel/1")  # load by version
-preds = model.predict([[5.1, 3.5, 1.4, 0.2]])
-print(preds)
-```
 
 ---
 
-## 8. Submission checklist (GitHub)
 
-Make sure your repository contains the following before submission:
 
-```
-README.md
-iris_mlflow.py (or src/iris_mlflow.py)
-requirements.txt
-models/                # saved .pkl models (optional)
-results/               # confusion matrices & metric plots
-docs/                  # screenshots
-```
 
-Push to GitHub:
-
-```bash
-git add README.md iris_mlflow.py requirements.txt models/ results/ docs/
-git commit -m "Add MLflow pipeline, README, and artifacts"
-git push origin main
-```
-
----
-
-## 9. Notes for the grader
-
-* If MLflow UI does not show runs, ensure you started the MLflow server (`python -m mlflow ui`) before running the script.
-* If the model is not registered, check the script output — registration occurs only if `best_model` is set and `mlflow.sklearn.log_model(..., registered_model_name='IrisBestModel')` executes.
-* To display key metrics on the registry page, set model-version tags via the `MlflowClient`.
-
----
-
-## 10. Contact
-
-If anything in reproduction fails, share the terminal output or screenshots and I will help debug.
-
----
-
-*End of README*
