@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/538414813224871361/d98e50b918ae4f158dacb51d12e89e83/artifacts
+end_time: 1758212727046
+entry_point_name: ''
+experiment_id: '538414813224871361'
+lifecycle_stage: active
+run_id: d98e50b918ae4f158dacb51d12e89e83
+run_name: DecisionTree
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1758212726684
+status: 3
+tags: []
+user_id: arsla

@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/538414813224871361/d2ab7624e2ed42c7af1a963e0ae97f85/artifacts
+end_time: 1758212727417
+entry_point_name: ''
+experiment_id: '538414813224871361'
+lifecycle_stage: active
+run_id: d2ab7624e2ed42c7af1a963e0ae97f85
+run_name: SVM
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1758212727068
+status: 3
+tags: []
+user_id: arsla
