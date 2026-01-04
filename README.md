@@ -107,7 +107,7 @@ For each model run we log the following to MLflow:
 ### 1) Clone repo
 
 ```bash
-git clone https://github.com/<your-username>/mlops-assignment-1.git
+git clone https://github.com/Ahsan608/mlops-assignment-1.git
 cd mlops-assignment-1
 ```
 
